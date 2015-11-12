@@ -1,0 +1,33 @@
+@import "addons.scss";
+@import "arbetsprov.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in arbetsprov.scss */
+.arbetsprov {
+  @include addons;
+  @include arbetsprov;
+}
+
+.header2 {
+	font-size: 18px;
+	line-height: normal;
+	font-weight: bold; 
+	margin-top: 8px; 
+	color: white; 
+	margin-left: 10px; 
+	
+}
+
+.header {
+	background: black; 
+	height: 40px; 
+	width: 100%; 
+	
+}
+
+.add_article_button {
+	width: 186px; 
+	float: left; 
+	height: 30px;
+	margin-top: 30px;  
+}
